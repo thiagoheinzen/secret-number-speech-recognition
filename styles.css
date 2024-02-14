@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+
+:root {
+    --font-family: 'Inter', sans-serif;
+    --primary-color: #E8F9FD;
+}
+
+body {
+    background-image: url('assets/8558193.jpg');
+    background-size: cover;
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: 600;
+}
+
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+    font-weight: 200;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 4em;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-size: 3em;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 2em;
+        margin-top: 20px;
+        font-weight: 100;
+    }
+
+    .mensagem {
+        font-size: 1.5em;
+        margin-top: 40px;
+        font-weight: 200;
+    }
+
+    .box {
+        border: 2px solid var(--primary-color);
+        display: inline-block;
+        font-size: 2em;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    i {
+        font-size: 0.7em;
+    }
+
+}
